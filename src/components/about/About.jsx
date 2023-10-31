@@ -1,11 +1,10 @@
 import React from 'react';
-import "./about.css";
-import AboutImg from "../../assets/About.jpg";
+import './About.css'
+import AboutImg from '../../assets/About.jpg';
+import CV from '../../assets/cv.pdf';
 import Info from './Info';
-import CV from "../../assets/cv.pdf";
 
-
-const About = () => {
+const about = () => {
   return (
     <section className="aboutsection" id="about">
         <h2 className="section__title">About Me</h2>
@@ -19,7 +18,7 @@ const About = () => {
                     Machine Learning Enthusiast and Mern Developer 
                 </p>
 
-                <a download="" href={CV} className="button button--flex">Download CV 
+                <a download={CV} href={CV} className="button button--flex">Download CV 
                 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -53,4 +52,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default about
