@@ -55,9 +55,9 @@ const Data = () => {
                     ></path>
             </svg>
         </h1>
-        <h3 className="home__subtitle">Full-Stack Developer</h3>
+        <h3 className="home__subtitle">Full-Stack Developer And AIML Engeenier</h3>
         <p className="home__description">
-            My passion is to design digital user experiences through the bold interface and meaningful interactions.
+            My passion is to make AI ML solutions and to spread my solutions using Web.
         </p>
 
         <a href="#contact" className="button button--flex">
